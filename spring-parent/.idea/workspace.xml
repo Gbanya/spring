@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bacfaaa1-fbdd-4fcc-8b87-7adf910c7f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-001-revelation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-001-revelation/readme.txt" afterDir="false" />
+    <list default="true" id="bacfaaa1-fbdd-4fcc-8b87-7adf910c7f0f" name="Default Changelist" comment="001 引入spring框架">
+      <change afterPath="$PROJECT_DIR$/spring-002-first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/dao/UserDaoImplForMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-002-first/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-002-first/src/main/resources/xml/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-002-first/src/test/java/com/yuan/spring6/test/FirstSpringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-001-revelation/target/" />
+    <ignored path="$PROJECT_DIR$/spring-002-first/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +31,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="-79">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/bean/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/util/Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="162" column="27" lean-forward="true" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/dao/UserDaoImplForMysql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-002-first/src/test/java/com/yuan/spring6/test/FirstSpringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testFirstSpringCode#0;class#FirstSpringTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/xml/bean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -36,22 +102,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-001-revelation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-001-revelation/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="836">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-002-first/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -59,8 +142,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-001-revelation/readme.txt" />
+        <option value="$PROJECT_DIR$/spring-002-first/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/bean/User.java" />
+        <option value="$PROJECT_DIR$/spring-002-first/src/main/resources/xml/bean.xml" />
+        <option value="$PROJECT_DIR$/spring-002-first/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/spring-002-first/src/test/java/com/yuan/spring6/test/FirstSpringTest.java" />
       </list>
     </option>
   </component>
@@ -68,7 +156,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/Environment/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Environment\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="E:\environment\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -87,15 +175,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-41" />
-    <option name="y" value="91" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -105,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,25 +204,47 @@
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-002-first" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-001-revelation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-001-revelation" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-002-first" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-002-first" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-002-first" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-002-first" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,9 +255,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40441176" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,6 +271,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.FirstSpringTest.testXmlPath">
+    <configuration name="FirstSpringTest.testFirstSpringCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-002-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.FirstSpringTest" />
+      <option name="METHOD_NAME" value="testFirstSpringCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstSpringTest.testXmlPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-002-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.FirstSpringTest" />
+      <option name="METHOD_NAME" value="testXmlPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FirstSpringTest.testXmlPath" />
+        <item itemvalue="JUnit.FirstSpringTest.testFirstSpringCode" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,27 +322,68 @@
       <option name="presentableId" value="Default" />
       <updated>1685627293681</updated>
       <workItem from="1685627296352" duration="28000" />
-      <workItem from="1685762581782" duration="5000000" />
+      <workItem from="1685762581782" duration="5755000" />
+      <workItem from="1685790965468" duration="1898000" />
+      <workItem from="1685843732936" duration="6580000" />
     </task>
+    <task id="LOCAL-00001" summary="001 引入spring框架">
+      <created>1685784811030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685784811030</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 10h 48m 17s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 10h 52m 10s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 10h 54m 58s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 11h 01m 04s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 11h 08m 39s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 11h 09m 05s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 11h 12m 25s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testFirstSpringCode - 2023.06.04 at 11h 32m 55s.xml">
+      <configuration name="FirstSpringTest.testFirstSpringCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSpringTest_testXmlPath - 2023.06.04 at 11h 45m 40s.xml">
+      <configuration name="FirstSpringTest.testXmlPath" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5028000" />
+    <option name="totallyTimeSpent" value="14261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23120452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39609236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,25 +407,101 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="001 引入spring框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 引入spring框架" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0-M2/spring-context-6.0.0-M2.pom" />
+    <entry file="file://$PROJECT_DIR$/spring-001-revelation/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="836">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-001-revelation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-001-revelation/readme.txt">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="-79">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0-M2/spring-context-6.0.0-M2.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/xml/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="162" column="27" lean-forward="true" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/dao/UserDaoImplForMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-002-first/src/test/java/com/yuan/spring6/test/FirstSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testFirstSpringCode#0;class#FirstSpringTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -277,7 +545,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -289,11 +557,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-parent</last-edited>
+          <last-edited>spring-002-first</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40441176" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -313,10 +582,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.springframework:spring-context:6.0.0-M2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40441176" />
               </list>
             </option>
           </splitter-proportions>

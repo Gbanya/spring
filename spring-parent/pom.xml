@@ -10,7 +10,42 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-001-revelation</module>
+        <module>spring-002-first</module>
     </modules>
 
+    <!--配置多个仓库-->
+    <repositories>
+        <!--spring里程碑版本的仓库-->
+        <repository>
+            <id>repository.spring.milestone</id>
+            <name>Spring Milestone Repository</name>
+            <url>https://repo.spring.io/milestone/</url>
+        </repository>
+    </repositories>
+
+    <!--依赖-->
+    <dependencies>
+        <!--spring-context依赖-->
+        <!--当你引入spring-context依赖之后，表示将spring的基础依赖都引入了-->
+        <!--如果，你想使用spring的jdbc，或者说其他的tx，那么还需要再次添加依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.0.0-M2</version>
+        </dependency>
+
+        <!--junit-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
 </project>
