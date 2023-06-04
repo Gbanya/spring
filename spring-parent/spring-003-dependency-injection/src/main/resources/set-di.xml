@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--外部bean-->
+    <bean id="orderDaoBean" class="com.yuan.spring6.dao.OrderDao"/>
+
+    <bean id="orderServiceBean" class="com.yuan.spring6.service.OrderService">
+        <!-- 使用ref属性来引入,这就是注入外部bean -->
+        <property name="orderDao" ref="orderDaoBean"/>
+    </bean>
+
+    <!--  ***************** 分割 **********************   -->
+
+    <bean id="orderServiceBean2" class="com.yuan.spring6.service.OrderService">
+        <property name="orderDao">
+            <!--在property标签中使用嵌套的bean标签,这就是内部bean-->
+            <bean class="com.yuan.spring6.dao.OrderDao"/>
+        </property>
+    </bean>
+
+    <!--  ***************** 分割 **********************   -->
+
+    <bean id="user" class="com.yuan.spring6.bean.User">
+        <property name="name" value="gbanya"/>
+        <property name="password" value="123"/>
+        <property name="age" value="12"/>
+    </bean>
+
+</beans>

@@ -11,6 +11,7 @@
     <modules>
         <module>spring-001-revelation</module>
         <module>spring-002-first</module>
+        <module>spring-003-dependency-injection</module>
     </modules>
 
 </project>

@@ -2,6 +2,8 @@ package com.yuan.spring6.test;
 
 import com.yuan.spring6.bean.User;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -78,4 +80,15 @@ public class FirstSpringTest {
         new ClassPathXmlApplicationContext("spring.xml");
     }
 
+    @Test
+    public void testLog4j(){
+        //我们自己如何使用log4j2记录日志信息呢?
+        //第一步: 创建日志记录器对象
+        //获取FirstSpringTest类的日志记录器对象,也就是说只要FirstSpringTest类中的代码执行记录日志的话,就输出相关的日志信息
+        // (当然,也需要看log4j2.xml配置的输出日志的级别是什么)
+        Logger logger = LoggerFactory.getLogger(FirstSpringTest.class);
+        logger.debug("debug信息");
+        logger.info(("info信息"));
+        logger.error("error信息");
+    }
 }

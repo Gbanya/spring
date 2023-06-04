@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-002-first</artifactId>
+    <artifactId>spring-003-dependency-injection</artifactId>
+    <packaging>jar</packaging>
 
     <!--配置多个仓库-->
     <repositories>
@@ -56,6 +57,4 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-
-
 </project>
