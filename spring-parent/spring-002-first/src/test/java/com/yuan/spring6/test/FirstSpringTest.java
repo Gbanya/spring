@@ -1,6 +1,8 @@
 package com.yuan.spring6.test;
 
+import com.yuan.spring6.bean.User;
 import org.junit.Test;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -57,6 +59,23 @@ public class FirstSpringTest {
         ApplicationContext applicationContext = new FileSystemXmlApplicationContext("E:/spring-study/spring.xml");
         Object userBean = applicationContext.getBean("userBean");
         System.out.println(userBean);
+    }
+
+    @Test
+    public void testBeanFactory(){
+        // ApplicationContext 接口的超级父接口是: BeanFactory(翻译为Bean工厂,就是能够生产Bean对象的一个工厂对象)
+        // BeanFactory 是IOC容器的超级接口
+        // Spring的IOC容器实际上使用了: 工厂模式
+        // Spring底层的IOC是怎么实现的? XML解析 + 工厂模式 + 反射机制
+        BeanFactory applicationContext = new ClassPathXmlApplicationContext("spring.xml");
+        User userBean = applicationContext.getBean("userBean", User.class);
+        System.out.println(userBean);
+    }
+
+    @Test
+    public void testBeginInitBean(){
+        //注意: 不是在调用getBean()方法的时候创建对象,执行以下代码的时候就会实例化对象
+        new ClassPathXmlApplicationContext("spring.xml");
     }
 
 }
