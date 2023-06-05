@@ -21,11 +21,24 @@
     </bean>
 
     <!--  ***************** 分割 **********************   -->
-
+    <!--注入简单类型-->
     <bean id="user" class="com.yuan.spring6.bean.User">
+        <!--重点： 如果是给简单类型赋值，就不能使用ref了，就需要使用value了。-->
         <property name="name" value="gbanya"/>
         <property name="password" value="123"/>
         <property name="age" value="12"/>
+    </bean>
+
+    <!--  ***************** 分割 **********************   -->
+    <!--注入值有特殊字符-->
+    <bean id="mathBean" class="com.yuan.spring6.bean.MathBean">
+        <!--第一种方案 使用实体符号代替特殊字符-->
+        <!--<property name="result" value="2 &lt; 3"/>-->
+
+        <!-- 第二种方案 <![CDATA[]]>-->
+        <property name="result">
+            <value><![CDATA[2 < 3]]></value>
+        </property>
     </bean>
 
 </beans>

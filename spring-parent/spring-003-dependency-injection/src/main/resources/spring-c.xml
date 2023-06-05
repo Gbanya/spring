@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--
+    使用c命名空间注入的前提条件：
+        a、xml头部信息添加p命名空间配置信息：xmlns:c="http://www.springframework.org/schema/c"
+        b、c命名空间注入是基于构造方法的，所以需要对应的属性提供构造方法。
+    -->
+    <bean id="peopleBean" class="com.yuan.spring6.bean.People" c:name="zhangsan" c:age="12" c:sex="true"/>
+</beans>

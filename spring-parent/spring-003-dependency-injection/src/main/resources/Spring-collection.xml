@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="personBean" class="com.yuan.spring6.bean.Person">
+        <property name="names">
+            <!-- list集合有序可重复 -->
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+
+        <property name="addrs">
+            <!-- set集合无序不可重复 -->
+            <set>
+                <value>成都</value>
+                <value>上海</value>
+                <value>成都</value>
+                <value>广州</value>
+            </set>
+        </property>
+
+        <property name="phones">
+            <!-- 注入map集合 -->
+            <map>
+                <entry key="1" value="110"/>
+                <entry key="2" value="120"/>
+                <entry key="3" value="130"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="driver">com.mysql.cj.jdbc.Driver</prop>
+                <prop key="url">jdbc://localhost:3306/spring6</prop>
+                <prop key="name">root</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
