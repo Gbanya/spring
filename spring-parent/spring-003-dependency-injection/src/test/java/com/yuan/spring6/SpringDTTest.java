@@ -1,6 +1,7 @@
 package com.yuan.spring6;
 
 import com.yuan.spring6.bean.*;
+import com.yuan.spring6.jdbc.MyDataSource;
 import com.yuan.spring6.jdbc.MyDataSource1;
 import com.yuan.spring6.jdbc.MyDataSource2;
 import com.yuan.spring6.service.CustomerService;
@@ -108,5 +109,24 @@ public class SpringDTTest {
         MyDataSource2 ds2 = applicationContext.getBean("ds2", MyDataSource2.class);
         System.out.println(ds1);
         System.out.println(ds2);
+    }
+
+    // autowire自动装配测试
+    @Test
+    public void testSetDIAutowire(){
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-autowire.xml");
+        OrderService orderServiceBeanByName = applicationContext.getBean("orderServiceByName", OrderService.class);
+        System.out.println(orderServiceBeanByName);
+
+        OrderService orderServiceByType = applicationContext.getBean("orderServiceByType", OrderService.class);
+        System.out.println(orderServiceByType);
+    }
+
+    // 外部引入properties文件自动装配测试
+    @Test
+    public void testSetDIProperties(){
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-properties.xml");
+        MyDataSource ds = applicationContext.getBean("ds", MyDataSource.class);
+        System.out.println(ds);
     }
 }

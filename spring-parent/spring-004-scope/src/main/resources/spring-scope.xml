@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        目前来说：scope属性有两个值
+            第一个值：singleton 单例（默认情况下就是单例的）。
+            第二个值：prototype 原型/多例
+        其实scope属性有多个值：
+            例如：request session
+            但是request session要求项目必须是一个web应用。当你引入springwmc框架的时候（pom引入 spring-webmvc），这两个值就可以使用了。
+            request: 一次请求当中只有一个bean
+            session：一次会话中只有一个bean
+    -->
+
+
+    <!-- 作用域：单例，默认情况下单例 -->
+    <bean id="sb" class="com.yuan.spring6.bean.SpringBean"/>
+    <!-- 作用域：单例 -->
+    <bean id="sb1" class="com.yuan.spring6.bean.SpringBean" scope="singleton"/>
+
+    <!-- 作用域：多例 -->
+    <bean id="sb2" class="com.yuan.spring6.bean.SpringBean" scope="prototype"/>
+
+
+    <!--****************************分割线*************************-->
+    <!--配置我们自定义的作用域-->
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="threadScope">
+                    <!-- 这个Scope接口的实现类使用的是Spring框架内置的，也可以自定义。 -->
+                    <bean class="org.springframework.context.support.SimpleThreadScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <bean id="sbThreadBean" class="com.yuan.spring6.bean.SpringBean" scope="threadScope"/>
+</beans>

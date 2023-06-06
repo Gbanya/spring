@@ -58,6 +58,17 @@
             xmlns:util="http://www.springframework.org/schema/util"
             xsi:schemaLocation="http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"
 
-6. 基于XML的自动装装配
+6. 基于XML的自动装配
+    Spring可以根据名字、类型进行自动装配。
+    a、ByName:通过名字进行自动装配( 测试方法 testSetDIAutowire() )
+    b、ByType:通过类型进行自动装配( 测试方法 testSetDIAutowire() )
+
+7. Spring引入外部属性配置文件(测试方法 testSetDIProperties())
+    引入外部的properties文件：
+        第一步：引入context命名空间
+        第二步：使用标签ontext:property-placeholder 的location属性来指定属性配置文件的路径。
+                location默认从类的根路径下开始加载资源
+        第三步：通过${key}读取配置文件属性
+
 
 

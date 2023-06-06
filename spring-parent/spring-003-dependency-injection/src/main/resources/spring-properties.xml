@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+        引入外部的properties文件：
+            第一步：引入context命名空间
+            第二步：使用标签ontext:property-placeholder 的location属性来指定属性配置文件的路径。
+                    location默认从类的根路径下开始加载资源
+    -->
+
+    <context:property-placeholder location="jdbc.properties"/>
+
+    <!-- 配置数据源 -->
+    <bean id="ds" class="com.yuan.spring6.jdbc.MyDataSource">
+        <!-- 怎么从配置文件取值呢？第三步：${key}  -->
+        <!-- 注意：在spring当中，通过${key}加载配置文件，默认是先加载windos系统的环境变量。
+            所以为了防止错误绑定属性，配置文件中的key最好有标识性，比如jdbc相关属性的key：jdbc.username -->
+        <property name="driver" value="${jdbc.driverClass}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+</beans>
