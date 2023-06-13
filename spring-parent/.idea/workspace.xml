@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bacfaaa1-fbdd-4fcc-8b87-7adf910c7f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-autowire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-properties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-004-scope/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-004-scope/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-004-scope/src/main/java/com/yuan/spring6/bean/SpringBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-factory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-factory/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/GunFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/PersonFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/SpringBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/StarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-005-bean-instantiation/src/test/java/com/yuan/spring6/test/BeanInstantiationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-003-dependency-injection/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-003-dependency-injection/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-003-dependency-injection/src/test/java/com/yuan/spring6/SpringDTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-003-dependency-injection/src/test/java/com/yuan/spring6/SpringDTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-004-scope/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-004-scope/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +28,8 @@
     <ignored path="$PROJECT_DIR$/spring-002-dependency-injection/target/" />
     <ignored path="$PROJECT_DIR$/spring-003-dependency-injection/target/" />
     <ignored path="$PROJECT_DIR$/spring-004-scope/target/" />
+    <ignored path="$PROJECT_DIR$/simple-factory/target/" />
+    <ignored path="$PROJECT_DIR$/spring-005-bean-instantiation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,64 +42,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/readme.txt">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/resources/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="334">
+              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/StarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/src/main/java/com/yuan/spring6/bean/SpringBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/config/CustomScopeConfigurer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="57">
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/test/java/com/yuan/spring6/test/BeanInstantiationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="315">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,44 +72,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Star.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="58" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="58" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="57">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-properties.xml">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Gun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="190">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
-                <element signature="e#669#690#0" expanded="true" />
-                <element signature="e#728#741#0" expanded="true" />
-                <element signature="e#784#802#0" expanded="true" />
-                <element signature="e#845#863#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/GunFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/PersonFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/FactoryBean.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -165,15 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-001-revelation/readme.txt" />
-        <option value="$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/bean/User.java" />
-        <option value="$PROJECT_DIR$/spring-002-first/src/main/resources/xml/bean.xml" />
-        <option value="$PROJECT_DIR$/spring-002-first/src/main/resources/spring.xml" />
-        <option value="$PROJECT_DIR$/spring-002-first/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-002-first/src/test/java/com/yuan/spring6/test/FirstSpringTest.java" />
-        <option value="$PROJECT_DIR$/spring-002-first/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com.yuan.spring6/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com.yuan.spring6/service/UserService.java" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/dao/UserDao.java" />
@@ -209,9 +208,22 @@
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-properties.xml" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/readme.txt" />
         <option value="$PROJECT_DIR$/spring-004-scope/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java" />
         <option value="$PROJECT_DIR$/spring-004-scope/readme.txt" />
         <option value="$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml" />
-        <option value="$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/SpringBean.java" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/StarFactory.java" />
+        <option value="$PROJECT_DIR$/simple-factory/readme.txt" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Star.java" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Gun.java" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/GunFactory.java" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Person.java" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/readme.txt" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/PersonFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/spring-005-bean-instantiation/src/test/java/com/yuan/spring6/test/BeanInstantiationTest.java" />
       </list>
     </option>
   </component>
@@ -252,7 +264,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,7 +274,63 @@
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
               <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+              <item name="spring6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -321,10 +388,111 @@
               <item name="yuan" type="462c0819:PsiDirectoryNode" />
               <item name="spring6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+              <item name="spring6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+              <item name="spring6" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +527,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBeanScopeTest.testThreadScope">
+  <component name="RunManager" selected="JUnit.BeanInstantiationTest.testInstantiation4">
+    <configuration name="BeanInstantiationTest.testInstantiation1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-005-bean-instantiation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
+      <option name="METHOD_NAME" value="testInstantiation1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanInstantiationTest.testInstantiation2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-005-bean-instantiation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
+      <option name="METHOD_NAME" value="testInstantiation2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanInstantiationTest.testInstantiation3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-005-bean-instantiation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
+      <option name="METHOD_NAME" value="testInstantiation3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanInstantiationTest.testInstantiation4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-005-bean-instantiation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
+      <option name="METHOD_NAME" value="testInstantiation4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBeanScopeTest.testThreadScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-004-scope" />
       <extension name="coverage">
@@ -376,77 +608,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBeanScopeTest.tsetBeanScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-004-scope" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.spring6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuan.spring6" />
-      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.SpringBeanScopeTest" />
-      <option name="METHOD_NAME" value="tsetBeanScope" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDTTest.testSetDIAutowire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-003-dependency-injection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.spring6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuan.spring6" />
-      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.SpringDTTest" />
-      <option name="METHOD_NAME" value="testSetDIAutowire" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDTTest.testSetDIProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-003-dependency-injection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.spring6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuan.spring6" />
-      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.SpringDTTest" />
-      <option name="METHOD_NAME" value="testSetDIProperties" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDTTest.testSetDIUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-003-dependency-injection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.spring6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuan.spring6" />
-      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.SpringDTTest" />
-      <option name="METHOD_NAME" value="testSetDIUtil" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation4" />
+        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation3" />
+        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation2" />
+        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation1" />
         <item itemvalue="JUnit.SpringBeanScopeTest.testThreadScope" />
-        <item itemvalue="JUnit.SpringBeanScopeTest.tsetBeanScope" />
-        <item itemvalue="JUnit.SpringDTTest.testSetDIProperties" />
-        <item itemvalue="JUnit.SpringDTTest.testSetDIAutowire" />
-        <item itemvalue="JUnit.SpringDTTest.testSetDIUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +633,8 @@
       <workItem from="1685790965468" duration="1898000" />
       <workItem from="1685843732936" duration="17998000" />
       <workItem from="1685969280945" duration="6135000" />
-      <workItem from="1686058588162" duration="4369000" />
+      <workItem from="1686058588162" duration="4618000" />
+      <workItem from="1686661459234" duration="5199000" />
     </task>
     <task id="LOCAL-00001" summary="001 引入spring框架">
       <created>1685784811030</created>
@@ -502,49 +671,56 @@
       <option name="project" value="LOCAL" />
       <updated>1685975447931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="004 作用域">
+      <created>1686063255424</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686063255424</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringDTTest_testSetDIP - 2023.06.05 at 22h 06m 37s.xml">
-      <configuration name="SpringDTTest.testSetDIP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDTTest_testSetDIC - 2023.06.05 at 22h 14m 02s.xml">
-      <configuration name="SpringDTTest.testSetDIC" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDTTest_testSetDIUtil - 2023.06.05 at 22h 28m 42s.xml">
-      <configuration name="SpringDTTest.testSetDIUtil" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDTTest_testSetDIAutowire - 2023.06.06 at 21h 43m 01s.xml">
-      <configuration name="SpringDTTest.testSetDIAutowire" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDTTest_testSetDIAutowire - 2023.06.06 at 21h 49m 37s.xml">
-      <configuration name="SpringDTTest.testSetDIAutowire" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDTTest_testSetDIProperties - 2023.06.06 at 22h 07m 06s.xml">
-      <configuration name="SpringDTTest.testSetDIProperties" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringBeanScopeTest_tsetBeanScope - 2023.06.06 at 22h 27m 45s.xml">
-      <configuration name="SpringBeanScopeTest.tsetBeanScope" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringBeanScopeTest_tsetBeanScope - 2023.06.06 at 22h 28m 19s.xml">
-      <configuration name="SpringBeanScopeTest.tsetBeanScope" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.06 at 22h 43m 24s.xml">
-      <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.06 at 22h 43m 52s.xml">
       <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.06 at 22h 50m 27s.xml">
+      <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.06 at 22h 50m 46s.xml">
+      <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.06 at 22h 51m 25s.xml">
+      <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.06 at 22h 52m 57s.xml">
+      <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBeanScopeTest_testThreadScope - 2023.06.13 at 21h 09m 54s.xml">
+      <configuration name="SpringBeanScopeTest.testThreadScope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanInstantiationTest_testInstantiation1 - 2023.06.13 at 21h 38m 50s.xml">
+      <configuration name="BeanInstantiationTest.testInstantiation1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanInstantiationTest_testInstantiation2 - 2023.06.13 at 21h 53m 01s.xml">
+      <configuration name="BeanInstantiationTest.testInstantiation2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanInstantiationTest_testInstantiation2 - 2023.06.13 at 21h 54m 17s.xml">
+      <configuration name="BeanInstantiationTest.testInstantiation2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanInstantiationTest_testInstantiation3 - 2023.06.13 at 22h 11m 23s.xml">
+      <configuration name="BeanInstantiationTest.testInstantiation3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36183000" />
+    <option name="totallyTimeSpent" value="41631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29830235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3031528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,7 +729,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3250444" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24511546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18650089" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,133 +793,10 @@
     <MESSAGE value="002 spring的第一个程序-2" />
     <MESSAGE value="003 依赖注入-1" />
     <MESSAGE value="003 依赖注入-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="003 依赖注入-2" />
+    <MESSAGE value="004 作用域" />
+    <option name="LAST_COMMIT_MESSAGE" value="004 作用域" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/xml/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="162" column="27" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/java/com/yuan/spring6/dao/UserDaoImplForMysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/src/test/java/com/yuan/spring6/test/FirstSpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testFirstSpringCode#0;class#FirstSpringTest#0" />
-            <element signature="method#testXmlPath#0;class#FirstSpringTest#0" />
-            <element signature="method#testBeanFactory#0;class#FirstSpringTest#0" />
-            <element signature="method#testBeginInitBean#0;class#FirstSpringTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com.yuan.spring6/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com.yuan.spring6/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="52" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-002-first/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/dao/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -969,43 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#669#690#0" expanded="true" />
-            <element signature="e#728#741#0" expanded="true" />
-            <element signature="e#784#802#0" expanded="true" />
-            <element signature="e#845#863#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1025,43 +1041,207 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="1102">
           <caret line="58" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-properties.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/config/CustomScopeConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0-M2/spring-context-6.0.0-M2.jar!/org/springframework/context/support/SimpleThreadScope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-factory/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/SpringBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-004-scope/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="343">
+          <caret line="57" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
           <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-004-scope/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/config/CustomScopeConfigurer.class">
+    <entry file="file://$PROJECT_DIR$/simple-factory/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/StarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Gun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/GunFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/FactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml">
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/PersonFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="228">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        <state relative-caret-position="334">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/test/java/com/yuan/spring6/test/BeanInstantiationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

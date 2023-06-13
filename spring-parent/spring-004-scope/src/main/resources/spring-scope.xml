@@ -25,6 +25,13 @@
 
 
     <!--****************************分割线*************************-->
+    <!--
+        下面的例子是自定义一个线程级别的Scope，在同一个线程中，获取的bean都是同一个；跨线程则是不同的对象。
+        第一步：自定义一个Scope。(实现Scope接口)
+            Spring内置了线程范围的类：org.springframework.context.support.SimpleThreadScope，可以直接用
+        第二步：将自定义的Scope注册到Spring容器中。
+    -->
+
     <!--配置我们自定义的作用域-->
     <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
         <property name="scopes">

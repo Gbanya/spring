@@ -13,6 +13,8 @@
         <module>spring-002-first</module>
         <module>spring-003-dependency-injection</module>
         <module>spring-004-scope</module>
+        <module>simple-factory</module>
+        <module>spring-005-bean-instantiation</module>
     </modules>
 
 </project>
