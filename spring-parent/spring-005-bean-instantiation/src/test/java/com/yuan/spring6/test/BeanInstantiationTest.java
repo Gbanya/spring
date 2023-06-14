@@ -1,9 +1,6 @@
 package com.yuan.spring6.test;
 
-import com.yuan.spring6.bean.Gun;
-import com.yuan.spring6.bean.Person;
-import com.yuan.spring6.bean.SpringBean;
-import com.yuan.spring6.bean.Star;
+import com.yuan.spring6.bean.*;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -45,5 +42,14 @@ public class BeanInstantiationTest {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
         Person person = applicationContext.getBean("personBean", Person.class);
         System.out.println(person);
+    }
+
+
+    //通过DateFactoryBean注入Date类型
+    @Test
+    public void testInstantiation5(){
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("dateInstantiation.xml");
+        Student student = applicationContext.getBean("studentBean", Student.class);
+        System.out.println(student);
     }
 }

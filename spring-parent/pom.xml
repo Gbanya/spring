@@ -15,6 +15,7 @@
         <module>spring-004-scope</module>
         <module>simple-factory</module>
         <module>spring-005-bean-instantiation</module>
+        <module>spring-006-bean-lifecycle</module>
     </modules>
 
 </project>

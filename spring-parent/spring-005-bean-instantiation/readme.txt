@@ -23,3 +23,7 @@ Bean的实例化方式（可以理解为在Spring框架中有哪些Bean的获取
     b、而本方法（通过FactoryBean接口实例化），在Spring中，当我们编写的类直接实现了FactoryBean接口后，factory-bean和factory-method都不再需要我们指定了。
         factory-bean会自动指向实现了FactoryBean接口的类，factory-method会自动指向getObject()方法。
     c、简而言之，第4种方法就是第3种方法的简化。
+
+
+练习：
+通过第4种方法来实战注入Date类型属性（测试方法：testInstantiation5()）

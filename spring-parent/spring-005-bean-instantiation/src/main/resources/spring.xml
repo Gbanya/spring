@@ -25,4 +25,9 @@
     <!--通过工厂Bean这个特殊的Bean对象，我们可以获取一个普通的Bean对象，也就是Person对象-->
     <!--通过FactoryBean这个工厂Bean主要是想对普通Bean进行加工处理-->
     <bean id="personBean" class="com.yuan.spring6.bean.PersonFactoryBean"/>
+
+
+
+
+
 </beans>
