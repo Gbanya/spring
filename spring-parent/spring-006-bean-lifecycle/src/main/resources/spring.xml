@@ -5,7 +5,7 @@
 
 
     <!--需要手动指定初始化方法和销毁方法-->
-    <bean id="userBean" class="com.yuan.spring6.bean.User" init-method="initBean" destroy-method="destroyBean" >
+    <bean id="userBean" class="com.yuan.spring6.bean.User" init-method="initBean" destroy-method="destroyBean">
         <property name="name" value="haha"/>
     </bean>
 
@@ -16,7 +16,7 @@
 
 
     <!--animal对象,Bean后处理器也会生效-->
-    <bean class="com.yuan.spring6.bean.Animal"/>
+<!--    <bean class="com.yuan.spring6.bean.Animal"/>-->
 
 
 
