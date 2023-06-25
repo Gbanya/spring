@@ -16,6 +16,9 @@
         <module>simple-factory</module>
         <module>spring-005-bean-instantiation</module>
         <module>spring-006-bean-lifecycle</module>
+        <module>spring-007-circular-dependency</module>
+        <module>review-reflect</module>
+        <module>myspring</module>
     </modules>
 
 </project>

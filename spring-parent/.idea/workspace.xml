@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bacfaaa1-fbdd-4fcc-8b87-7adf910c7f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/androidDexCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/review-reflect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/yuan/reflect/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/src/test/java/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/spring-007-circular-dependency.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/src/main/java/com/yuan/spring6/bean/Husband.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/src/main/java/com/yuan/spring6/bean/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-007-circular-dependency/src/test/java/CircularDependencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-006-bean-lifecycle/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-006-bean-lifecycle/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/LogBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/LogBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/test/java/testBeanLifecycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-006-bean-lifecycle/src/test/java/testBeanLifecycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,91 +34,116 @@
     <ignored path="$PROJECT_DIR$/simple-factory/target/" />
     <ignored path="$PROJECT_DIR$/spring-005-bean-instantiation/target/" />
     <ignored path="$PROJECT_DIR$/spring-006-bean-lifecycle/target/" />
+    <ignored path="$PROJECT_DIR$/spring-007-circular-dependency/target/" />
+    <ignored path="$PROJECT_DIR$/review-reflect/target/" />
+    <ignored path="$PROJECT_DIR$/myspring/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="171" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/review-reflect/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/resources/myspring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/test/java/testBeanLifecycleTest.java">
+        <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/readme.txt">
+        <entry file="file://$PROJECT_DIR$/myspring/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/io/Serializable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3211">
-              <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/resources/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="7" column="110" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/LogBeanPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/review-reflect/src/test/java/TestReflect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,32 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Animal.java">
+        <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1403#1404#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="301">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -148,8 +165,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -165,22 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/dao/OrderDao.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/User.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/Clazz.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/Student.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/cascade.xml" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/XiaoMing.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/Spring-array.xml" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/Person.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/Spring-collection.xml" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/MathBean.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/set-di.xml" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/Dog.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-p.xml" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/bean/People.java" />
-        <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-c.xml" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource1.java" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource2.java" />
         <option value="$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-util.xml" />
@@ -214,8 +215,24 @@
         <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/LogBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/User.java" />
         <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/resources/spring.xml" />
-        <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/readme.txt" />
         <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/src/test/java/testBeanLifecycleTest.java" />
+        <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/readme.txt" />
+        <option value="$PROJECT_DIR$/spring-007-circular-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-007-circular-dependency/src/test/java/CircularDependencyTest.java" />
+        <option value="$PROJECT_DIR$/spring-007-circular-dependency/src/main/java/com/yuan/spring6/bean/Husband.java" />
+        <option value="$PROJECT_DIR$/spring-007-circular-dependency/src/main/java/com/yuan/spring6/bean/Wife.java" />
+        <option value="$PROJECT_DIR$/spring-007-circular-dependency/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/spring-007-circular-dependency/readme.txt" />
+        <option value="$PROJECT_DIR$/review-reflect/src/main/java/com/yuan/reflect/SomService.java" />
+        <option value="$PROJECT_DIR$/review-reflect/src/main/java/com/yuan/reflect/SomeService.java" />
+        <option value="$PROJECT_DIR$/review-reflect/src/test/java/TestReflect.java" />
+        <option value="$PROJECT_DIR$/review-reflect/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/readme.txt" />
+        <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/User.java" />
+        <option value="$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserDao.java" />
+        <option value="$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserService.java" />
+        <option value="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" />
       </list>
     </option>
   </component>
@@ -265,56 +282,25 @@
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-003-dependency-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -322,83 +308,7 @@
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yuan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-004-scope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yuan" type="462c0819:PsiDirectoryNode" />
-              <item name="spring6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-005-bean-instantiation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -407,40 +317,40 @@
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+              <item name="powernode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yuan" type="462c0819:PsiDirectoryNode" />
-              <item name="spring6" type="462c0819:PsiDirectoryNode" />
+              <item name="powernode" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yuan" type="462c0819:PsiDirectoryNode" />
-              <item name="spring6" type="462c0819:PsiDirectoryNode" />
+              <item name="powernode" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -448,37 +358,28 @@
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-006-bean-lifecycle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-007-circular-dependency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-003-dependency-injection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40441176" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -500,35 +401,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testBeanLifecycleTest.testRegisterBean">
-    <configuration name="BeanInstantiationTest.testInstantiation3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-005-bean-instantiation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
-      <option name="METHOD_NAME" value="testInstantiation3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanInstantiationTest.testInstantiation4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-005-bean-instantiation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
-      <option name="METHOD_NAME" value="testInstantiation4" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="Application.TestReflect">
+    <configuration name="TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestReflect" />
+      <module name="review-reflect" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -544,6 +420,16 @@
       <option name="PACKAGE_NAME" value="com.yuan.spring6.test" />
       <option name="MAIN_CLASS_NAME" value="com.yuan.spring6.test.BeanInstantiationTest" />
       <option name="METHOD_NAME" value="testInstantiation5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularDependencyTest.tsetCD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-007-circular-dependency" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircularDependencyTest" />
+      <option name="METHOD_NAME" value="tsetCD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -571,11 +457,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestReflect" />
+        <item itemvalue="JUnit.CircularDependencyTest.tsetCD" />
         <item itemvalue="JUnit.testBeanLifecycleTest.testRegisterBean" />
         <item itemvalue="JUnit.testBeanLifecycleTest.testBeanLifecycleFive" />
         <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation5" />
-        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation4" />
-        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation3" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +486,8 @@
       <workItem from="1686835683925" duration="2725000" />
       <workItem from="1686965806672" duration="2055000" />
       <workItem from="1687053819862" duration="794000" />
-      <workItem from="1687177517231" duration="3852000" />
+      <workItem from="1687177517231" duration="4265000" />
+      <workItem from="1687697007002" duration="4615000" />
     </task>
     <task id="LOCAL-00001" summary="001 引入spring框架">
       <created>1685784811030</created>
@@ -665,49 +552,56 @@
       <option name="project" value="LOCAL" />
       <updated>1686838311523</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="006 Bean的生命周期-10步">
+      <created>1687181608358</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687181608358</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.15 at 21h 56m 07s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 00m 32s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 20h 33m 29s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 01m 01s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 20h 49m 00s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 02m 36s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 20h 50m 02s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 03m 47s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 21h 03m 15s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 04m 48s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 21h 04m 31s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 06m 05s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 21h 10m 00s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 08m 31s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 21h 10m 54s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 09m 43s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 21h 18m 15s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 10m 17s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testBeanLifecycleTest_testBeanLifecycleFive - 2023.06.19 at 21h 18m 54s.xml">
-      <configuration name="testBeanLifecycleTest.testBeanLifecycleFive" configurationId="JUnit" />
+    <history-entry file="CircularDependencyTest_tsetCD - 2023.06.25 at 21h 13m 55s.xml">
+      <configuration name="CircularDependencyTest.tsetCD" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54123000" />
+    <option name="totallyTimeSpent" value="59151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4920071" visible="true" weight="0.32821342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4920071" visible="true" weight="0.33387226" />
       <window_info id="Structure" order="1" sideWeight="0.5079929" side_tool="true" weight="0.32821342" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -716,8 +610,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49023092" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18650089" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57015985" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19538188" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -728,6 +622,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32983023" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -752,163 +647,25 @@
     <MESSAGE value="005 Bean的四种实例化方式" />
     <MESSAGE value="006 Bean的生命周期-5步" />
     <MESSAGE value="006 Bean的生命周期-7步" />
-    <option name="LAST_COMMIT_MESSAGE" value="006 Bean的生命周期-7步" />
+    <MESSAGE value="006 Bean的生命周期-10步" />
+    <option name="LAST_COMMIT_MESSAGE" value="006 Bean的生命周期-10步" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-007-circular-dependency/src/test/java/CircularDependencyTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_parent$CircularDependencyTest_tsetCD.ic" NAME="CircularDependencyTest.tsetCD Coverage Results" MODIFIED="1687698581710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="58" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/java/com/yuan/spring6/jdbc/MyDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/spring-properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/config/CustomScopeConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0-M2/spring-context-6.0.0-M2.jar!/org/springframework/context/support/SimpleThreadScope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-004-scope/src/main/resources/spring-scope.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-factory/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-004-scope/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="57" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-factory/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/Gun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.0-M2/spring-beans-6.0.0-M2.jar!/org/springframework/beans/factory/FactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-003-dependency-injection/src/main/resources/set-di.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/resources/dateInstantiation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-005-bean-instantiation/src/main/java/com/yuan/spring6/bean/DateFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1057,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1085,43 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/LogBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-004-scope/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1131,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-004-scope/src/test/java/com/yuan/spring6/SpringBeanScopeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="475">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1139,34 +852,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/resources/spring.xml">
+    <entry file="jar://E:/environment/jdk/az/lib/src.zip!/java.base/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="7" column="110" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
+        <state relative-caret-position="3211">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Student.java">
+    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="133">
+          <caret line="7" column="110" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="358">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/test/java/testBeanLifecycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="320">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="58" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/src/main/java/com/yuan/spring6/bean/Husband.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/src/main/java/com/yuan/spring6/bean/Wife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/src/test/java/CircularDependencyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review-reflect/src/main/java/com/yuan/reflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-006-bean-lifecycle/src/main/java/com/yuan/spring6/bean/LogBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review-reflect/src/main/java/com/yuan/reflect/SomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review-reflect/src/test/java/TestReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review-reflect/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/resources/myspring..xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/powernode/myspring/bean/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/resources/myspring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-007-circular-dependency/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1222,12 +1151,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-003-dependency-injection</last-edited>
+          <last-edited>review-reflect</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.40441176" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
