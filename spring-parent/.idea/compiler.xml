@@ -14,9 +14,10 @@
         <module name="spring-004-scope" />
         <module name="spring-003-dependency-injection" />
         <module name="spring-006-bean-lifecycle" />
-        <module name="simple-factory" />
-        <module name="review-reflect" />
+        <module name="review-annotation" />
         <module name="spring-007-circular-dependency" />
+        <module name="review-reflect" />
+        <module name="simple-factory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -19,6 +19,7 @@
         <module>spring-007-circular-dependency</module>
         <module>review-reflect</module>
         <module>myspring</module>
+        <module>review-annotation</module>
     </modules>
 
 </project>

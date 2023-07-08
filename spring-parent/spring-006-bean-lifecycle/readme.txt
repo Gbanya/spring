@@ -21,6 +21,8 @@ Bean的声明周期
     第四步：使用Bean
     第五步：销毁Bean
 
+Bean的生命周期管理，可以参考Spring的源码：AbstractAutowireCapableBeanFactory类的doCreateBean()方法
+
 4、Bean的生命周期之7步
     第一步：实例化Bean
     第二步：Bean属性的赋值
