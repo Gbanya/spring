@@ -20,6 +20,7 @@
         <module>review-reflect</module>
         <module>myspring</module>
         <module>review-annotation</module>
+        <module>spring-008-ioc-annotation</module>
     </modules>
 
 </project>
