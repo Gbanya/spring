@@ -12,4 +12,7 @@ import org.springframework.stereotype.Component;
 // 如果将value值也不给，bean对象也会有默认的名称：类名首字母小写
 @Component
 public class User {
+    public User() {
+        System.out.println("User无参构造方法执行");
+    }
 }
