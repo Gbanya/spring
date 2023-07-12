@@ -1,5 +1,5 @@
-import com.yuan.spring6.bean.Student;
-import com.yuan.spring6.bean.User;
+import com.yuan.proxy.spring6.bean.Student;
+import com.yuan.proxy.spring6.bean.User;
 import org.junit.Test;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

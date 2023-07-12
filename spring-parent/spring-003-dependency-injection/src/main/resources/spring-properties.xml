@@ -15,7 +15,7 @@
     <context:property-placeholder location="jdbc.properties"/>
 
     <!-- 配置数据源 -->
-    <bean id="ds" class="com.yuan.spring6.jdbc.MyDataSource">
+    <bean id="ds" class="com.yuan.proxy.spring6.jdbc.MyDataSource">
         <!-- 怎么从配置文件取值呢？第三步：${key}  -->
         <!-- 注意：在spring当中，通过${key}加载配置文件，默认是先加载windos系统的环境变量。
             所以为了防止错误绑定属性，配置文件中的key最好有标识性，比如jdbc相关属性的key：jdbc.username -->

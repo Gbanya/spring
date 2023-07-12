@@ -16,12 +16,12 @@
 
 
     <!-- 作用域：单例，默认情况下单例 -->
-    <bean id="sb" class="com.yuan.spring6.bean.SpringBean"/>
+    <bean id="sb" class="SpringBean"/>
     <!-- 作用域：单例 -->
-    <bean id="sb1" class="com.yuan.spring6.bean.SpringBean" scope="singleton"/>
+    <bean id="sb1" class="SpringBean" scope="singleton"/>
 
     <!-- 作用域：多例 -->
-    <bean id="sb2" class="com.yuan.spring6.bean.SpringBean" scope="prototype"/>
+    <bean id="sb2" class="SpringBean" scope="prototype"/>
 
 
     <!--****************************分割线*************************-->
@@ -43,5 +43,5 @@
             </map>
         </property>
     </bean>
-    <bean id="sbThreadBean" class="com.yuan.spring6.bean.SpringBean" scope="threadScope"/>
+    <bean id="sbThreadBean" class="SpringBean" scope="threadScope"/>
 </beans>

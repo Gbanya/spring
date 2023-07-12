@@ -11,7 +11,7 @@ public class TestReflect {
     public static void main(String[] args) throws Exception {
         // 使用反射机制怎么调用方法。
         // 获取类
-        Class<?> aClass = Class.forName("com.yuan.reflect.SomeService");
+        Class<?> aClass = Class.forName("com.yuan.proxy.reflect.SomeService");
 
         // 获取方法
         Method doSome = aClass.getDeclaredMethod("doSome", String.class);

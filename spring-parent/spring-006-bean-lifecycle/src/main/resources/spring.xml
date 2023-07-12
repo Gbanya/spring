@@ -5,18 +5,18 @@
 
 
     <!--需要手动指定初始化方法和销毁方法-->
-    <bean id="userBean" class="com.yuan.spring6.bean.User" init-method="initBean" destroy-method="destroyBean">
+    <bean id="userBean" class="User" init-method="initBean" destroy-method="destroyBean">
         <property name="name" value="haha"/>
     </bean>
 
     <!--配置bean后处理器-->
     <!--注意：这个Bean后处理器将作用于当前整个配置文件中所有的bean-->
-    <bean class="com.yuan.spring6.bean.LogBeanPostProcessor"/>
+    <bean class="com.yuan.proxy.spring6.bean.LogBeanPostProcessor"/>
 
 
 
     <!--animal对象,Bean后处理器也会生效-->
-<!--    <bean class="com.yuan.spring6.bean.Animal"/>-->
+<!--    <bean class="Animal"/>-->
 
 
 

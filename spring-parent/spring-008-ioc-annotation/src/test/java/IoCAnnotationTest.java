@@ -1,7 +1,7 @@
-import com.yuan.spring6.bean.MyDataSource;
-import com.yuan.spring6.config.Spring6Config;
-import com.yuan.spring6.dao.OrderService;
-import com.yuan.spring6.resource.StudentService;
+import com.yuan.proxy.spring6.bean.MyDataSource;
+import com.yuan.proxy.spring6.config.Spring6Config;
+import com.yuan.proxy.spring6.dao.OrderService;
+import com.yuan.proxy.spring6.resource.StudentService;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

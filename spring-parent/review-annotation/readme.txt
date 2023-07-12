@@ -7,4 +7,4 @@
     ReflectAnnotationTest1
 
 4. 给定一个包路径，扫描该包下所有的类，并且只有@Component注解的类才创建对象（这个其实就是@ComponentScan注解的原理）
-    实现代码：com.yuan.client.ComponentScan
+    实现代码：ComponentScan

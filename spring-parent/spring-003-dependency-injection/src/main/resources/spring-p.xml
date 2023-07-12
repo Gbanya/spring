@@ -10,7 +10,7 @@
             2、p命名空间注入是基于setter方法的，所以需要对应的属性提供setter方法。
     -->
 
-    <bean id="dogBean" class="com.yuan.spring6.bean.Dog" p:name="小花" p:birth-ref="birthBean"/>
+    <bean id="dogBean" class="com.yuan.proxy.spring6.bean.Dog" p:name="小花" p:birth-ref="birthBean"/>
 
     <!-- 获取当前系统时间 -->
     <bean id="birthBean" class="java.util.Date"/>

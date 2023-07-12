@@ -3,5 +3,5 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userBean2" class="com.yuan.spring6.bean.User"/>
+    <bean id="userBean2" class="User"/>
 </beans>

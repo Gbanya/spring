@@ -11,7 +11,7 @@ Bean的实例化方式（可以理解为在Spring框架中有哪些Bean的获取
 
 2.通过简单工厂模式实例化（测试方法：testInstantiation2()）
     a、最底层其实还是用的构造方法创建的对象。
-    b、工厂类中的方法必须是静态方法，否则报错：No matching factory method found on class [com.yuan.spring6.bean.StarFactory]: factory method 'getStar()
+    b、工厂类中的方法必须是静态方法，否则报错：No matching factory method found on class [StarFactory]: factory method 'getStar()
 
 3.通过factory-bean实例化（测试方法：testInstantiation3()）
     a、和简单工厂模式实例化方法不同，通过factory-bean实例化中工厂类的方法是实例方法，不是静态方法。

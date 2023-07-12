@@ -4,18 +4,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--Spring提供的实例化方式，第一种：在Spring配置文件中直接配置类全路径，Spring会自动调用该类的无参构造方法来实例化bean-->
-    <bean id="sb" class="com.yuan.spring6.bean.SpringBean"/>
+    <bean id="sb" class="SpringBean"/>
 
 
     <!--Spring提供的实例化方式，第二种：通过简单工厂模式。你需要在Spring配置文件中告诉Spring框架，调用哪个类的方法获取Bean-->
     <!--factory-method 属性指定的工厂类当中的静态方法。也就是告诉spring框架，调用这个方法可以获取Bean-->
-    <bean id="starBean" class="com.yuan.spring6.bean.StarFactory" factory-method="getStar"/>
+    <bean id="starBean" class="com.yuan.proxy.spring6.bean.StarFactory" factory-method="getStar"/>
 
 
     <!--Spring提供的实例化方式，第三种：通过工厂方法模式。通过factory-bean属性 + factory-method属性来共同完成。-->
     <!--告诉Spring框架，调用哪个对象的哪个方法来获取Bean-->
     <!--factory-bean属性告诉Spring调用哪个工厂对象，factory-method属性告诉Spring调用工厂对象的哪个方法-->
-    <bean id="gunFactory" class="com.yuan.spring6.bean.GunFactory"/>
+    <bean id="gunFactory" class="com.yuan.proxy.spring6.bean.GunFactory"/>
     <bean id="gunBean" factory-bean="gunFactory" factory-method="getGun"/>
 
 
@@ -24,7 +24,7 @@
     <!--由于我们编写的类实现了FactoryBean接口，所以这个类是一个特殊的类，不再需要我们来指定factory-bean属性、factory-method属性-->
     <!--通过工厂Bean这个特殊的Bean对象，我们可以获取一个普通的Bean对象，也就是Person对象-->
     <!--通过FactoryBean这个工厂Bean主要是想对普通Bean进行加工处理-->
-    <bean id="personBean" class="com.yuan.spring6.bean.PersonFactoryBean"/>
+    <bean id="personBean" class="com.yuan.proxy.spring6.bean.PersonFactoryBean"/>
 
 
 
