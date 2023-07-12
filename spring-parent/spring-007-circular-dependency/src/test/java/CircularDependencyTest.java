@@ -1,5 +1,5 @@
-import com.yuan.proxy.spring6.bean.Husband;
-import com.yuan.proxy.spring6.bean.Wife;
+import com.yuan.spring6.bean.Husband;
+import com.yuan.spring6.bean.Wife;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

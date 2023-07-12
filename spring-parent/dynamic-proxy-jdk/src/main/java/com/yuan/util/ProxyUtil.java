@@ -1,6 +1,6 @@
 package com.yuan.util;
 
-import com.yuan.proxy.service.TimeInvocationHandler;
+import com.yuan.service.TimeInvocationHandler;
 
 import java.lang.reflect.Proxy;
 

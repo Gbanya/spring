@@ -5,10 +5,10 @@
 
 
     <!--配置dao-->
-    <bean id="userDaoBean" class="com.yuan.proxy.spring6.dao.UserDao"/>
+    <bean id="userDaoBean" class="com.yuan.spring6.dao.UserDao"/>
 
     <!--配置service-->
-    <bean id="userService" class="com.yuan.proxy.spring6.service.UserService">
+    <bean id="userService" class="com.yuan.spring6.service.UserService">
         <!-- 想让Spring调用对应的set方法,需要配置property标签 -->
         <!-- name属性怎么指定值: set方法的方法名,去掉set,然后吧剩下的单词首字母变小写,写到name中 -->
         <!-- ref翻译为引用.英语单词为: reference. ref后面指定的是要注入的bean的id. -->

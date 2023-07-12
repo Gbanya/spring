@@ -14,10 +14,10 @@
             id：是这个bean的身份证号，不能重复，是唯一标识。
             class：必须填写类的全路径，全限定类名(带包名的类)。
     -->
-    <bean id="userBean" class="User"/>
+    <bean id="userBean" class="com.yuan.spring6.bean.User"/>
 
     <!--配置其他的bean-->
-    <bean id="userDaoBean" class="com.yuan.proxy.spring6.dao.UserDaoImplForMysql"/>
+    <bean id="userDaoBean" class="com.yuan.spring6.dao.UserDaoImplForMysql"/>
 
     <!--配置-->
     <bean id="nowTime" class="java.util.Date"/>

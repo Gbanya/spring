@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="studentBean" class="Student">
+    <bean id="studentBean" class="com.yuan.spring6.bean.Student">
         <property name="name" value="张三"/>
         <!--级联属性赋值-->
         <property name="clazz" ref="clazzBean"/>
@@ -11,7 +11,7 @@
         <property name="clazz.name" value="高三二班"/>
     </bean>
 
-    <bean id="clazzBean" class="com.yuan.proxy.spring6.bean.Clazz"/>
+    <bean id="clazzBean" class="com.yuan.spring6.bean.Clazz"/>
 
     <!--<bean id="clazzBean" class="Clazz">
         <property name="name" value="高三二班"/>

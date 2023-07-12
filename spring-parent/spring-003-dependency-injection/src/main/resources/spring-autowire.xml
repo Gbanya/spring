@@ -6,15 +6,15 @@
 
     <!-- id一般也叫做bean的名称 -->
     <!-- 根据名字进行自动装配的时候，被注入的对象的bean的id不能随便写，怎么写？set方法的方法名去掉set，剩下单词首字母小写 -->
-    <bean id="orderDao" class="OrderDao"></bean>
+    <bean id="orderDao" class="com.yuan.spring6.dao.OrderDao"></bean>
 
     <!-- 根据名字进行自动装配 -->
     <!-- 注意：自动装配也是基于set方式实现的 -->
-    <bean id="orderServiceByName" class="com.yuan.proxy.spring6.service.OrderService" autowire="byName"/>
+    <bean id="orderServiceByName" class="com.yuan.spring6.service.OrderService" autowire="byName"/>
 
 
     <!-- 根据类型进行自动装配 -->
     <!-- 注意：自动装配也是基于set方式实现的 -->
     <!-- 根据类型进行自动装配的时候，在有效的配置文件中，某种类型的实例只能有一个 -->
-    <bean id="orderServiceByType" class="com.yuan.proxy.spring6.service.OrderService" autowire="byType"/>
+    <bean id="orderServiceByType" class="com.yuan.spring6.service.OrderService" autowire="byType"/>
 </beans>

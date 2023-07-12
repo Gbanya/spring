@@ -4,11 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="date" class="com.yuan.proxy.spring6.bean.DateFactoryBean">
+    <bean id="date" class="com.yuan.spring6.bean.DateFactoryBean">
         <constructor-arg name="strDate" value="2020-12-20"/>
     </bean>
 
-    <bean id="studentBean" class="Student">
+    <bean id="studentBean" class="com.yuan.spring6.bean.Student">
         <property name="birth" ref="date"/>
     </bean>
 </beans>

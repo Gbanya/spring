@@ -17,12 +17,12 @@
 
 
     <!-- 数据源1 -->
-    <bean id="ds1" class="com.yuan.proxy.spring6.jdbc.MyDataSource1">
+    <bean id="ds1" class="com.yuan.spring6.jdbc.MyDataSource1">
         <property name="properties" ref="prop"/>
     </bean>
 
     <!-- 数据源2 -->
-    <bean id="ds2" class="com.yuan.proxy.spring6.jdbc.MyDataSource2">
+    <bean id="ds2" class="com.yuan.spring6.jdbc.MyDataSource2">
         <property name="properties" ref="prop"/>
     </bean>
 

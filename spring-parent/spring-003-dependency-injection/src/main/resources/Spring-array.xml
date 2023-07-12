@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="xiaoMingBean" class="com.yuan.proxy.spring6.bean.XiaoMing">
+    <bean id="xiaoMingBean" class="com.yuan.spring6.bean.XiaoMing">
         <!--数组的元素属性是String，简单类型，使用value赋值-->
         <property name="aihaos">
             <array>
@@ -24,12 +24,12 @@
         </property>
     </bean>
 
-    <bean id="user1" class="User">
+    <bean id="user1" class="com.yuan.spring6.bean.User">
         <property name="name" value="张三"/>
         <property name="age" value="12"/>
         <property name="password" value="123"/>
     </bean>
-    <bean id="user2" class="User">
+    <bean id="user2" class="com.yuan.spring6.bean.User">
         <property name="name" value="李四"/>
         <property name="age" value="13"/>
         <property name="password" value="123"/>
