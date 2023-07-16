@@ -22,6 +22,9 @@
         <module>review-annotation</module>
         <module>spring-008-ioc-annotation</module>
         <module>dynamic-proxy-jdk</module>
+        <module>dynamic-proxy-cglib</module>
+        <module>spring-009-spring-aspectj-aop-annotation</module>
+        <module>spring-010-tx-sm</module>
     </modules>
 
 </project>

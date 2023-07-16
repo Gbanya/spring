@@ -7,4 +7,7 @@
 
 
 JDK动态代理：
-    测试方法 Client类
+    · 创建JDK动态代理对象：Proxy.newProxyInstance
+    · 调用处理器（负责编写增强部分代码）：自己写个InvocationHandler接口的实现类
+    · 测试方法 Client类
+
